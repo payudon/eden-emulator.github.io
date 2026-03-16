@@ -38,4 +38,12 @@ export const features = [
     color: 'from-red-400 to-pink-500',
     glow: 'shadow-red-500/50',
   },
+  {
+    icon: Palette,
+    title: 'Graphics Extensions',
+    description:
+      'An all new experimental config tab for advanced settings and ultimate customisation.',
+    color: 'from-purple-400 to-blue-500',
+    glow: 'shadow-purple-500/50',
+  },
 ]
