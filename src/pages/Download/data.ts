@@ -1,4 +1,4 @@
-import { Apple, AppWindow as Windows, type LucideIcon, Monitor, Smartphone } from 'lucide-react'
+import { Apple, AppWindow as Windows, type LucideIcon, Monitor, Smartphone, Sun, Bomb } from 'lucide-react'
 import type { PlatformType } from '@/utils/getCurrentPlatform'
 import env from '@/utils/env'
 
@@ -61,8 +61,8 @@ export const platforms: Platform[] = [
   },
   {
     name: 'SOLARIS',
-    platform: 'solaris',
-    icon: Monitor,
+    platform: 'linux',
+    icon: Sun,
     version: env().DOWNLOAD_VERSION,
     size: '100 MB',
     requirements: 'amd64',
@@ -72,8 +72,8 @@ export const platforms: Platform[] = [
   },
   {
     name: 'FREEBSD',
-    platform: 'freebsd',
-    icon: Monitor,
+    platform: 'linux',
+    icon: Bomb,
     version: env().DOWNLOAD_VERSION,
     size: '100 MB',
     requirements: 'amd64 / aarch64',
